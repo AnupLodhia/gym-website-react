@@ -1,3 +1,7 @@
+# INTRODUCTION
+
+This project is a gym static website template in react js and includes components and react-scroll package for smooth scrolling in single page.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
