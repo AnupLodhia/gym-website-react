@@ -1,0 +1,15 @@
+@media (max-width: 1190px) {
+    .a-box {
+        flex-grow: 1;
+      }
+      .a-b-img img {
+        object-fit: contain;
+      }
+  }
+
+  @media (max-width: 400px) {
+    .a-box {
+      width: 100%;
+      height: 400px;
+    }
+  }
