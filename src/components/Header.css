@@ -68,8 +68,9 @@
 }
 .header-btns {
   display: flex;
+  justify-content: center;
   margin-top: 40px;
-  margin-left: 40%;
+  margin-left: auto;
 }
 .header-btn {
   width: 160px;
@@ -109,6 +110,10 @@
   .name .details {
     font-size: 1rem;
   }
+
+  .header-btns{
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 970px) {
@@ -120,23 +125,18 @@
     top: 50%;
     transform: translate(-50%, -50%);
   }
- 
-  .header-btn {
-    margin-left: 42%;
-    margin-top: 20px;
-  }
+  
 }
 
 @media (max-width: 600px) {
-  .name {
-    width: 60%;
+  #main{
+    height: 500px;
   }
+  .name {
+    margin-top: 50px;
+    width: 60%;
+  } 
 }
 
-@media (max-width: 1100px) {
-  .header-btns {
-    margin: 0;
-  }
   
   
-}

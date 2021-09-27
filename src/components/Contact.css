@@ -40,6 +40,9 @@
   }
 
   @media (max-width: 620px) {
+    #contact{
+      margin-top: 50px;
+    }
     #contact form {
       width: 90%;
     }

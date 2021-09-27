@@ -8,6 +8,13 @@ body {
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+#wrapper{
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 button {

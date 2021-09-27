@@ -9,6 +9,7 @@
     justify-content: center;
     padding-top: 40px;
     background-color: #000000;
+    margin-bottom: 80px;
   }
   #features h1 {
     color: #fff;
@@ -88,7 +89,6 @@
   }
 
   @media (max-width: 970px) {
- 
     #features {
       margin-bottom: 100px;
     }
